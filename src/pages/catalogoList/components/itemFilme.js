@@ -1,13 +1,14 @@
-import {Paper} from "@mui/material";
+import {Box} from "@mui/material";
+import {styles} from "../styles";
 
 const ItemFilme = (props) => {
 
     const {filme} = props
 
     return (
-        <Paper elevation={3}>
+        <Box sx={styles.container}>
             <img src={process.env.REACT_APP_URL_BASE_IMAGE + filme.poster_path} alt="posterFilme"/>
-        </Paper>
+        </Box>
     )
 }
 

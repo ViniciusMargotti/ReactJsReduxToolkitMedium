@@ -7,6 +7,7 @@ const catalogo = createReducer({filmes: [],}, {
         state.horarioSelecionado = payload;
     },
     [addMany]: (state, action) => {
+        debugger;
         const {payload} = action;
         state.filmes = [...state.filmes, ...payload];
     }

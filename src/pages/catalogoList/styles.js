@@ -1,8 +1,7 @@
 export const styles = {
-    boxFilme: {
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
+    container: {
+        width: {xs: '100%', md: '100%'},
+        backgroundColor: '#110000',
+        color: '#fff',
     }
 }
