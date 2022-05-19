@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ReactJsReduxSeed.iml" filepath="$PROJECT_DIR$/.idea/ReactJsReduxSeed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ReactJsReduxToolkitMedium.iml" filepath="$PROJECT_DIR$/.idea/ReactJsReduxToolkitMedium.iml" />
     </modules>
   </component>
 </project>

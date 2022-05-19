@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
-import catalogo from './catalogo/reducer';
+import movies from './movies/reducer';
 
 export default combineReducers({
-    catalogo
+    movies
 });

@@ -1,38 +1,81 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Ubuntu'),
+    url('fonts/Ubuntu-Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ubuntu-Regular'),
+    url('fonts/Ubuntu-Regular.ttf') format('truetype')
+}
+
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
+}
+
+.itemMovie {
+}
+
+.itemMovie :hover {
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+[data-rsbs-header] {
+    display: none;
+    box-shadow: none;
+    padding-top: calc(12px + env(safe-area-inset-top));
+}
+
+[data-rsbs-content] {
+    background: #0c0000;
+}
+
+[data-rsbs-overlay] {
+    background: #0c0000 !important;
 }
