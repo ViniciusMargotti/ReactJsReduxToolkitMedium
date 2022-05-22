@@ -4,7 +4,7 @@ import rootReducer from './modules/rootReducer';
 import storage from 'redux-persist/lib/storage'
 
 const persistConfig = {
-    key: 'ReactjsReduxSeedCatalogo',
+    key: 'ReactjsReduxToolkitMedium',
     storage,
     blacklist: ['']
 }
